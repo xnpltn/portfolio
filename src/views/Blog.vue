@@ -3,9 +3,11 @@
 </script>
 
 <template>
-    <h1>Blog</h1>
+    <div class="text-white py-96 grid place-items-center">
+        <h1>Blog View</h1>
+        
+    </div>
 </template>
-
 
 <style>
 
