@@ -27,5 +27,6 @@ coverage
 *.sln
 *.sw?
 test2.html
+fakedb.json
 
 *.tsbuildinfo

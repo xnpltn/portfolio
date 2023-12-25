@@ -7,10 +7,12 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <RouterLink to="/projects">
-        <div class="container bg-gray-200 rounded w-72">
+        <div class="container bg-gray-200 rounded w-72 text-black">
             <div class="slide">
-                <div class="content h-96" id="div1">Div 1</div>
-                <div class="content h-96" id="div2">Div 2</div>
+                <div class="content h-96" id="div1">
+                  <img src="/nuxt.png" alt="" class="card-image">
+                </div>
+                <div class="content h-96 " id="div2">Div 2</div>
                 <div class="content h-96" id="div3">Div 3</div>
             </div>
         </div>
@@ -37,14 +39,18 @@ import { RouterLink } from 'vue-router';
       box-sizing: border-box;
       padding: 20px;
       text-align: center;
-      color: #fff;
+      /* color: #fff; */
       display: grid;
       place-content: center;
     }
 
-    #div1 { background-color: #3498db; }
+    .card-image{
+      max-width: 100%;
+    }
+
+    /* #div1 { background-color: #3498db; }
     #div2 { background-color: #e74c3c; }
-    #div3 { background-color: #2ecc71; }
+    #div3 { background-color: #2ecc71; } */
 
     @keyframes slideAnimation {
       0% { transform: translateX(0); }
