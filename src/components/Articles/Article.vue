@@ -2,6 +2,7 @@
 
 
 defineProps({
+    id: Number,
     title: String,
     image: String,
     desc: String,
@@ -16,9 +17,9 @@ defineProps({
                 <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-lg dark:text-white">{{ title }}</h1>
                 <p class="mb-8 text-lg font-normal text-gray-500 lg:text-base dark:text-gray-400">{{ desc }}</p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0">
-                    <a href="#" class="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center bg-gray-700 hover:bg-gray-800  rounded-lg   text-white">
+                    <RouterLink :to="'blog/'+id" class="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center bg-gray-700 hover:bg-gray-800  rounded-lg   text-white">
                         Continue Reading
-                    </a>  
+                    </RouterLink>  
                 </div>
             </div>
             <div class="flex flex-col justify-center  rounded-xl h-80 overflow-hidden">

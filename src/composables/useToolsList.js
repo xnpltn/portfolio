@@ -3,27 +3,27 @@ export function toolsList(){
         {
             name: 'Vs Code',
             image: '/icons/tools/vscode.png',
-            desc: 'Visual Studio Code (VS Code) is a lightweight, powerful source code editor with excellent features, extensions, and robust support for various languages.'
+            desc: 'VS Code, a popular source code editor, developed by Microsoft, boasts extensibility, robust features, and a user-friendly interface for efficient and customizable coding experiences.'
         },
         {
             name: 'Figma',
             image: '/icons/tools/figma.png',
-            desc: 'Figma is a collaborative design platform enabling teams to create, prototype, and collaborate on digital designs in real-time. Its cloud-based nature fosters seamless collaboration, making design processes efficient.'
+            desc: 'Figma, a collaborative design tool, facilitates seamless team collaboration, real-time editing, and cloud-based accessibility, enhancing the efficiency of modern UI/UX design workflows.'
         },
         {
             name: 'Dribble',
             image: '/icons/tools/dribbble.png',
-            desc: 'Dribbble is a creative platform where designers showcase their work, gain inspiration, and connect. It is a vibrant community fostering collaboration, innovation, and design excellence.'
+            desc: 'Dribbble, a design platform, serves as a creative showcase for designers worldwide, fostering inspiration, collaboration, and the sharing of high-quality visual work across various design disciplines.'
         },
         {
             name: 'Docker',
             image: '/icons/tools/docker.png',
-            desc: 'Docker is a platform for developing, shipping, and running applications in containers. It provides a consistent environment, simplifying deployment across different systems and enhancing scalability and efficiency in software development.'
+            desc: 'Docker, a containerization platform, simplifies application deployment with portable, lightweight containers, ensuring consistency across environments and facilitating scalable and efficient software development and deployment workflows.'
         },
         {
             name: 'Notion',
             image: '/icons/tools/notion.png',
-            desc: 'Notion is an all-in-one workspace that combines note-taking, task management, and collaboration. It features a versatile and intuitive interface, making it a popular choice for personal and team productivity.'
+            desc: 'Notion, an all-in-one productivity tool, combines notes, tasks, and collaboration, providing a versatile workspace for individuals and teams with intuitive organization and a clean interface.'
         },
     ]
 }

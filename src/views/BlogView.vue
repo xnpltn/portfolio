@@ -8,7 +8,7 @@ import { articles } from '@/composables/useArticles.js';
 <template>
     <article >
         <section class="text-white grid " v-for="article in articles()" :key="article.title">
-            <Article :title="article.title" :desc="article.description" :image="article.image"/>
+            <Article :title="article.title" :desc="article.description" :image="article.image" :id="article.id"/>
         </section>
     </article>
 </template>

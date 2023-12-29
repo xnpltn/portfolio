@@ -3,22 +3,22 @@ export function languagesList(){
         {
             name: 'Python',
             image: '/icons/langs/py.png',
-            desc: 'Python is a versatile, high-level programming language known for its readability and simplicity. Widely used in web development, data science, artificial intelligence, and automation, Python promotes efficient and elegant coding.'    
+            desc: 'Python, a versatile programming language, offers readability, simplicity, and a vast ecosystem, making it ideal for web development, data science, and automation.'    
         },
         {
             name: 'JavaScript',
             image: '/icons/langs/js.png',
-            desc: 'avaScript (JS) is a dynamic, versatile scripting language primarily used for web development. It enables interactive and dynamic web pages, offering client-side functionality and seamless integration with HTML and CSS.'    
+            desc: 'JavaScript, a versatile scripting language, powers dynamic web content, enabling interactivity, asynchronous operations, and cross-browser compatibility for modern, responsive applications.'    
         },
         {
             name: 'C',
             image: '/icons/langs/c.png',
-            desc: 'C is a powerful and widely-used programming language known for its efficiency and low-level control. It is essential in system programming, embedded systems, and software development, providing direct memory manipulation capabilities.'    
+            desc: 'C, a powerful and efficient programming language, provides low-level control, high performance, and is widely used in systems programming and embedded systems'    
         },
         {
             name: 'Dart',
             image: '/icons/langs/dart.png',
-            desc: 'Dart is a client-optimized programming language for building web, mobile, and desktop apps. Flutter, a UI toolkit by Google, utilizes Dart to create natively compiled, cross-platform applications with expressive and flexible interfaces.'    
+            desc: 'Dart, a client-optimized programming language, is used for building cross-platform mobile, web, and server applications, offering productivity, strong typing, and asynchronous programming.'    
         },
     ]
     
