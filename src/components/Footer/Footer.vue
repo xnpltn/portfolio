@@ -85,7 +85,7 @@ import { RouterLink } from 'vue-router';
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <!-- <div class="sm:flex sm:items-center sm:justify-between"> -->
         <div class="grid place-items-center">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2021 - Now<RouterLink  to="/" class="hover:underline mx-2"> XNPLTN</RouterLink>™. All Rights Reserved.</span>
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2021 - Now<a  href="/" class="hover:underline mx-2"> XNPLTN</a>™. All Rights Reserved.</span>
         </div>
     </div>
 

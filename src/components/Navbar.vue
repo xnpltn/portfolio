@@ -39,8 +39,8 @@ function toggleNav(){
                 'hidden': !show
             }" >
                 <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li v-for="item in items" :key="item.name">
-                        <RouterLink :to="item.to" class="block py-3 px-4 text-sm  rounded hover:bg-gray-700 md:hover:bg-transparent  md:p-0 text-white">{{ item.name }}</RouterLink>
+                    <li v-for="item in items" :key="item.name" class="flex items-center justify-center">
+                        <RouterLink active-class="active-link" :to="item.to" class="block py-3 px-4 text-sm  rounded hover:bg-gray-700 md:hover:bg-transparent  md:p-0 text-white">{{ item.name }}</RouterLink>
                     </li>
                 </ul>
             </div>
@@ -52,5 +52,23 @@ function toggleNav(){
 
 <style scoped>
 
+.active-link{
+    background-color: rgb(55, 65, 81);
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+}
+
+.active-link:hover{
+    background-color: rgb(31, 41, 55);
+}
+
+@media (max-width: 770px) {
+    .active-link{
+        margin: 0.2em;
+    }
+}
 
 </style>

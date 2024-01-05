@@ -22,11 +22,25 @@ defineProps({
                     </RouterLink>  
                 </div>
             </div>
-            <div class="flex flex-col justify-center  rounded-xl h-80 overflow-hidden">
-                <img :src="image" class=" object-cover h-full rounded-xl"/>
+            <div class="flex flex-col justify-center  rounded-xl w-auto overflow-hidden">
+                <img :src="image" class="article-image object-cover h-full rounded-xl"/>
             </div>
         </div>
         
     </section>
 
 </template>
+
+<style scoped>
+
+.article-image{
+    max-width: 20em;
+}
+
+@media (max-width: 770px) {
+    .article-image{
+        width: 20em;
+    }
+}
+
+</style>

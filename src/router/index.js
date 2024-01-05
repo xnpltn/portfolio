@@ -4,6 +4,7 @@ import AboutView from '@/views/AboutView.vue';
 import ProjectsView from '@/views/ProjectsView.vue';
 import Blog from '@/views/BlogView.vue';
 import ArticleView from '@/views/ArticleView.vue';
+import NotFoundView from '@/views/NotFoundView.vue';
 
 
 
@@ -35,7 +36,11 @@ const router = createRouter({
       name: 'articles',
       component: ArticleView
     },
-    
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'notfound',
+      component: NotFoundView
+    }
   ]
 })
 
